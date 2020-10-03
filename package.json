@@ -1,7 +1,7 @@
 {
   "name": "national-rail-data",
   "description": "A simple library to retrieve data from the national rail data portal service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha --recursive --timeout=10000 --exit --reporter mocha-junit-reporter --reporter-options mochaFile=reports/mocha/test-results.xml",
